@@ -1,0 +1,1734 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ruby package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ruby 1.8.7-p72\n"
+"POT-Creation-Date: 2008-09-04 01:53+0900\n"
+"PO-Revision-Date: 2008-09-03 21:50+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:2
+msgid "can't modify array during iteration"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:4
+msgid "Insecure: can't modify array"
+msgstr "危険: 配列は変更できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:6
+msgid "negative array size (or size too big)"
+msgstr "配列のサイズが負かまたは大きすぎます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:8 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:12
+msgid "array size too big"
+msgstr "配列が大き過ぎます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:10 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:16
+msgid "negative array size"
+msgstr "配列のサイズが負値です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:14 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:28
+msgid "index %ld too big"
+msgstr "インデックス %ld は大き過ぎます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:18 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:20
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:30 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:36
+msgid "Symbol as array index"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:22 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:26
+msgid "index %ld out of array"
+msgstr "インデックス %ld は配列を越えています"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:24
+msgid "negative length (%ld)"
+msgstr "負の長さ(%ld)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:32
+msgid "Symbol as subarray length"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:34 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:804
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:810 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:812
+msgid "wrong number of arguments (%d for 2)"
+msgstr "引数の数が不正です (2に対して%d)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:38
+msgid "wrong number of arguments (at least 1)"
+msgstr "引数の数が不正です (少なくとも1個は必須)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:40
+msgid "array modified during sort"
+msgstr "ソート中に配列が変更されました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:42 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:46
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:766
+msgid "argument too big"
+msgstr "引数が大き過ぎます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:44 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:764
+msgid "negative argument"
+msgstr "引数が負値"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:48
+msgid "flatten reentered"
+msgstr "flattenが再入されました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:50
+msgid "tried to flatten recursive array"
+msgstr "再帰配列をflattenしようとしました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:52
+msgid "too big for combination"
+msgstr "組み合わせが大き過ぎます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:54
+msgid "too big to product"
+msgstr "積が大き過ぎます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:56 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:124
+msgid "attempt to take negative size"
+msgstr "負のサイズを得ようとしました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:58 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:126
+msgid "attempt to drop negative size"
+msgstr "負のサイズを削ろうとしました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:60 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:62
+msgid "bignum too big to convert into `quad int'"
+msgstr "bignumが大きいためquad intに変換できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:64 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:68
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:498 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:816
+msgid "illegal radix %d"
+msgstr "不正な基数(%d)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:66
+msgid "bignum too big to convert into `string'"
+msgstr "bignumが大きいため文字列に変換できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:70 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:76
+msgid "bignum too big to convert into `%s'"
+msgstr "bignumが大きいため %s に変換できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:72
+msgid "bignum out of range of unsigned long"
+msgstr "bignumが unsigned long を超えています"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:74
+msgid "bignum too big to convert into `long'"
+msgstr "bignumが大きいためlongに変換できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:78
+msgid "bignum too big to convert into `long long'"
+msgstr "bignumが大きいためlong longに変換できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:80
+msgid "Infinity"
+msgstr "無限大"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:82
+msgid "NaN"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:84
+msgid "can't make subclass of Class"
+msgstr "Classのサブクラスは作れません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:86 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:92
+msgid "can't make subclass of virtual class"
+msgstr "仮想クラスのサブクラスは作れません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:88 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:520
+msgid "already initialized class"
+msgstr "既に初期化済みのクラスです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:90
+msgid "can't copy singleton class"
+msgstr "特異クラスはコピーできません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:94 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:96
+msgid "%s is not a class"
+msgstr "%sはクラスではありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:96 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:100
+msgid "%s is already defined"
+msgstr "%sは定義済みです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:98
+msgid "%s is not a module"
+msgstr "%sはモジュールではありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:100
+msgid "cyclic include detected"
+msgstr "循環includeです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:102
+msgid "can't define singleton"
+msgstr "特異クラスは定義できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:104
+msgid "unknown immediate %ld"
+msgstr "即値 %ld は不明です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:104 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:106
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:288
+msgid "wrong number of arguments (%d for %d)"
+msgstr "引数の数が不正です(%dは%dであるべきです)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:108
+msgid "closed directory"
+msgstr "クローズ済みのディレクトリです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:110
+msgid "Insecure: operation on untainted Dir"
+msgstr "危険: 汚染されたDirの操作です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:112 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:378
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:380 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:384
+msgid "Insecure: can't close"
+msgstr "危険: クローズできません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:114
+msgid "HOME/LOGDIR not set"
+msgstr "HOMEまたはLOGIDR環境変数が設定されていません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:118
+msgid "continuous RECURSIVEs"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:116
+msgid "this executable file can't load extension libraries"
+msgstr "この実行ファイルは拡張ライブラリとしてロードできません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:118 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:120
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:122
+msgid "sort_by reentered"
+msgstr "sort_byの再入"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:128
+msgid "uninitialized enumerator"
+msgstr "未初期化のイニュメレイターです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:130
+msgid "invalid slice size"
+msgstr "不正なslice数です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:132
+msgid "invalid size"
+msgstr "不正なサイズ"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:134 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:138
+msgid "unallocated enumerator"
+msgstr "未確保のイニュメレイター"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:136
+msgid "wrong number of argument (0 for 1)"
+msgstr "引数の数が不正です(1に対して0)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:144
+msgid "undef leaked to the Ruby space"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:146
+msgid "unknown type 0x%x"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:140
+msgid "invalid value for %s: %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:142
+msgid "invalid instance type"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:152
+msgid "rb_sys_fail(%s) - errno == 0"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:144
+msgid "can't modify frozen %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:156
+msgid "\n"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:146
+msgid "Insecure operation at level %d"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:148
+msgid "Insecure operation: -r"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:166
+msgid "undefined method `%s' for %s `%s'"
+msgstr "%sは%s `%s'の未定義メソッドです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:150
+msgid "Insecure: can't define method"
+msgstr "危険: メソッドは定義できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:152
+msgid "Insecure: can't remove method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:172
+msgid "method `%s' not defined in %s"
+msgstr "メソッド `%s' は%sで定義されていません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:174
+msgid "invalid attribute name `%s'"
+msgstr "属性 `%s' は不正な名前です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:154
+msgid "argument needs to be symbol or string"
+msgstr "引数にはシンボルか文字列を与えてください"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:168
+msgid "Unknown longjmp status %d"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:156
+msgid "no class variables available"
+msgstr "利用可能なクラス変数はありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:158
+msgid "Insecure: can't undef `%s'"
+msgstr "危険: `%s'の定義は取り消せません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:184
+msgid "undefined method `%s' for%s `%s'"
+msgstr "%sは%s `%s'の未定義メソッドです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:160
+msgid "trace_func needs to be Proc"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:162
+msgid "`to_a' did not return Array"
+msgstr "`to_a'メソッドが配列を返しません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:178
+msgid "class path missing"
+msgstr "クラスの継承が見つかりません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:180
+msgid "terminated node (0x%lx)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:182
+msgid "not a node 0x%02lx (0x%lx)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:184
+msgid "unknown node type %d (0x%lx)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:186 C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:188
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:196
+msgid "unexpected local variable"
+msgstr "予期せぬローカル変数"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:164
+msgid "super called outside of method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:192 C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:234
+msgid "unexpected local variable assignment"
+msgstr "予期せぬローカル変数への代入"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:166
+msgid "no class/module to define class variable"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:44 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:764
+msgid "unexpected block argument"
+msgstr "引数が負値"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:200
+msgid "unexpected back-ref"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:202
+msgid "odd number list for Hash"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:168
+msgid "no class/module to add method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:170
+msgid "Insecure: can't define singleton method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:172
+msgid "redefining method prohibited"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:174
+msgid "no class to undef method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:176
+msgid "no class to make alias"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:178 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:182
+msgid "no outer class/module"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:180
+msgid "extending class prohibited"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:184
+msgid "extending module prohibited"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:186
+msgid "Insecure: can't extend object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:188
+msgid "exception class/object expected"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:190 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:280
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:290 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:328
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:472 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:634
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:638 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:642
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:646 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:650
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:654 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:688
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:818 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:820
+msgid "wrong number of arguments"
+msgstr "引数の数が不正です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:192
+msgid "exception object expected"
+msgstr "例外オブジェクトを与えてください"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:194
+msgid "return can't jump across threads"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:196
+msgid "wrong number of arguments (%ld for %ld)"
+msgstr "引数の数が不正です(%ldは%ldであるべきです)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:236
+msgid "bug in variable assignment"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:198
+msgid "class or module required for rescue clause"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:200
+msgid "no id given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:184
+msgid "private method `%s' called for %s"
+msgstr "プライベートメソッド'%s'が%sに対して呼ばれました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:184
+msgid "protected method `%s' called for %s"
+msgstr "プロテクテッドメソッド'%s'が%sに対して呼ばれました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:184
+msgid "undefined local variable or method `%s' for %s"
+msgstr "'%s'は%sの未定義のローカル変数かメソッドです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-4276-1k5w55w-0:260
+msgid "super: no superclass method `%s'"
+msgstr "スーパークラスにはメソッド`%s'はありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:184
+msgid "undefined method `%s' for %s"
+msgstr "%sは%sの未定義メソッドです"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:202
+msgid "allocator undefined for %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:204
+msgid "too many arguments (%d)"
+msgstr "引数の数が多すぎます (%d)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:206 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:216
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:682 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:846
+msgid "wrong number of arguments (%d for 0)"
+msgstr "引数の数が不正です(0に対して%d)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:208 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:246
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:788 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:806
+msgid "wrong number of arguments (%d for 1)"
+msgstr "引数の数が不正です(1に対して%d)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:44 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:764
+msgid "no argument-node"
+msgstr "引数が負値"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:210
+msgid "no method name given"
+msgstr "メソッド名がありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:266
+msgid "calling `super' from `%s' is prohibited"
+msgstr "%sからsuperの呼び出しは禁止されています"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:212
+msgid "negative level (%d)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:214
+msgid "Insecure: can't modify trusted binding"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:218
+msgid "block not supplied"
+msgstr "ブロックが与えられていません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:220
+msgid "no such file to load -- %s"
+msgstr "%s というロード可能なファイルはありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:222
+msgid "Insecure: can't change method visibility"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:224
+msgid "module_function must be called for modules"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:268
+msgid "undefined method `%s'; can't happen"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:226
+msgid "wrong number of arguments (0 for 1)"
+msgstr "引数の数が不正です(1に対して0)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:228
+msgid "assigning non-exception to $!"
+msgstr "$!には例外だけが設定できます"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:230
+msgid "$! not set"
+msgstr "$!が設定されていません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:232
+msgid "called without a block"
+msgstr "ブロックなしで呼び出されました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:234
+msgid "no class/module for autoload target"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:236
+msgid "tried to create Proc object without a block"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:238
+msgid "Insecure: tainted block value"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:240
+msgid "can't call unbound method; bind first"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:242
+msgid "singleton method bound for a different object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:244
+msgid "invalid node 0x%x"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:248
+msgid "wrong argument type (expected Proc/Method)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:294
+msgid "unsaved context"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:296
+msgid "cross-thread violation on rb_thread_schedule()"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:250
+msgid "killed thread"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:252
+msgid ""
+"stopping only thread\n"
+"\tnote: use sleep to stop forever"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:254 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:258
+msgid "must be called with a block"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:256
+msgid "already initialized thread"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:260
+msgid "unstarted thread"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:262
+msgid "Insecure: thread locals"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:264
+msgid "Insecure: can't modify thread locals"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:266
+msgid "continuation called across threads"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:268
+msgid "continuation called across trap"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:270
+msgid "can't move to the frozen thread group"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:272
+msgid "can't move to the enclosed thread group"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:274
+msgid "can't move from the frozen thread group"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:276
+msgid "can't move from the enclosed thread group"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:340
+msgid "uncaught throw `%s'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:278
+msgid "uninitialized File::Stat"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:282
+msgid "couldn't find HOME environment -- expanding `%s'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:284
+msgid "user %s doesn't exist"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:286 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:360
+msgid "not opened for writing"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:292
+msgid "unknown command ?%c"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:294 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:674
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:842
+msgid "wrong argument class"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:296 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:300
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:302 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:306
+msgid "loading from unsafe file %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:298
+msgid "loading from unsafe path %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:304
+msgid "loading from non-absolute path %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:308
+msgid "negative allocation size (or too big)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:310
+msgid "negative re-allocation size"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:360
+msgid "object allocation during garbage collection phase"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:362
+msgid "rb_gc_mark() called for broken object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:364
+msgid "obj_free() called for broken object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:366
+msgid "cross-thread violation on rb_gc()"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:312
+msgid "%p is not symbol id value"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:314
+msgid "0x%lx is not id value"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:316
+msgid "0x%lx is recycled object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:318
+msgid "uninitialized Hash"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:320
+msgid "Insecure: can't modify hash"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:322 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:326
+msgid "hash modified during iteration"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:324
+msgid "rehash occurred during iteration"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:330
+msgid "odd number of arguments for Hash"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:332 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:340
+msgid "key not found"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:334 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:336
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:338 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:344
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:348
+msgid "bad environment variable name"
+msgstr "不正な環境変数名です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:342
+msgid "can't change environment variable"
+msgstr "環境変数を変更できません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:346
+msgid "bad environment variable value"
+msgstr "不正な環境変数値です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:350
+msgid "end of file reached"
+msgstr "ファイルの終端に到達しました"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:352
+msgid "Insecure: operation on untainted IO"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:354
+msgid "uninitialized stream"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:356
+msgid "closed stream"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:358
+msgid "not opened for reading"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:362
+msgid "file too big for single read"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:364 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:368
+msgid "negative length %ld given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:366 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:370
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:392
+msgid "buffer string modified"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:372
+msgid "rs modified"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:374
+msgid "unread stream"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:376
+msgid "ungetc failed"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:382
+msgid "closing non-duplex IO for reading"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:386
+msgid "closing non-duplex IO for writing"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:388
+msgid "sysseek for buffered IO"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:390
+msgid "sysread for buffered IO"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:394 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:400
+msgid "illegal access modenum %o"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:396 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:398
+msgid "illegal access mode %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:402
+msgid "Insecure: can't reopen"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:460
+msgid "illegal prep_path() call"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:404
+msgid "reinitializing File"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:406
+msgid "return value overflowed string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:408
+msgid "too few arguments for syscall"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:410
+msgid "too many arguments for syscall"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:412
+msgid "no stream to tell"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:414
+msgid "no stream to seek"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:416
+msgid "no stream to set position"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:418
+msgid "no stream to rewind"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:420
+msgid "no stream"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:422
+msgid "%s reentered"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:424
+msgid "%s can't be referred"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:426
+msgid "long too big to dump"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:428
+msgid "can't dump anonymous class %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:430
+msgid "singleton can't be dumped"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:432
+msgid "exceed depth limit"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:434
+msgid "_dump() must return string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:436
+msgid "singleton class can't be dumped"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:438
+msgid "can't dump hash with default proc"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:440 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:464
+msgid "instance of IO needed"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:442 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:444
+msgid "marshal data too short"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:446
+msgid "bad symbol"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:448
+msgid "%s does not refer class"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:450
+msgid "%s does not refer module"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:452
+msgid "dump format error (unlinked)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:454
+msgid "singleton can't be loaded"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:456
+msgid "dump format error (user class)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:458 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:460
+msgid "dump format error"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:462
+msgid "dump format error(0x%x)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:466
+msgid "divided by 0"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:468
+msgid "coerce must return [x, y]"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:470
+msgid "can't copy %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:474 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:666
+msgid "step can't be 0"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:476
+msgid "no implicit conversion from nil to integer"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:478
+msgid "float %s out of range of integer"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:480
+msgid "integer %ld too %s to convert to `int'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:482
+msgid "integer %ld too small to convert to `unsigned int'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:484
+msgid "integer %lu too big to convert to `unsigned int'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:486
+msgid "integer %ld out of range of fixnum"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:488
+msgid "no implicit conversion from nil"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:490
+msgid "float %s out of range of long long"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:492
+msgid "no implicit conversion from string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:494
+msgid "no implicit conversion from boolean"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:496
+msgid "%ld out of char range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:500
+msgid "[bug] frozen object (%s) allocated"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:502
+msgid "can't clone %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:504
+msgid "can't dup %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:506
+msgid "initialize_copy should take same class object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:508 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:510
+msgid "class or module required"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:512
+msgid "Insecure: can't freeze object"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:514
+msgid "no receiver given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:516 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:518
+msgid "compared with non class/module"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:522
+msgid "can't instantiate uninitialized class"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:524
+msgid "can't create instance of virtual class"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:526
+msgid "wrong instance allocation"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:528
+msgid "uninitialized class"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:530
+msgid "%ld is not a symbol"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:532
+msgid "%s is not a symbol"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:608 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:610
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:612
+msgid "wrong constant name %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:614 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:616
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:618 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1034
+msgid "`%s' is not allowed as an instance variable name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:620 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:622
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:624
+msgid "`%s' is not allowed as a class variable name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:534
+msgid "Float %.*s%s out of range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:536
+msgid "string for Float contains null byte"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:538
+msgid "can't convert nil into Float"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:540
+msgid "invalid value for Float()"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:542
+msgid "no implicit conversion to float from string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:544
+msgid "no implicit conversion to float from nil"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:546
+msgid "can't convert %s to `integer'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:548
+msgid "format string modified"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:550 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:560
+msgid "'%c' allowed only after types %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:552 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:566
+msgid "X outside of string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:554 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:562
+msgid "%% is not supported"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:556 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:578
+msgid "pack(U): value out of range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:558
+msgid "can't compress negative numbers"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:564
+msgid "@ outside of string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:568
+msgid "x outside of string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:570 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:574
+msgid "no associated pointer"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:572 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:576
+msgid "non associated pointer"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:580 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:582
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:584
+msgid "malformed UTF-8 character"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:586
+msgid "redundant UTF-8 sequence"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:588 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:590
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:592 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:594
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:596
+msgid "both block arg and actual block given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:598
+msgid "%s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:692
+msgid "unknown regexp option%s - %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:600
+msgid "symbol cannot contain '"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:602
+msgid "unterminated string meets end of file"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:604
+msgid "unterminated here document identifier"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:700
+msgid " anywhere before EOF"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:608
+msgid "embedded document meets end of file"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:610
+msgid "incomplete character syntax"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:612
+msgid "unterminated quoted string meets end of file"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:614
+msgid "`@%c' is not allowed as an instance variable name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:616
+msgid "`@@%c' is not allowed as a class variable name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:618
+msgid "Invalid char `%%03o' in expression"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:620 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:622
+msgid "identifier %s is not valid"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:624
+msgid "Can't set variable $%d"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:626
+msgid "Can't set variable $%c"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:628
+msgid "block argument should not be given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:688
+msgid "unknown nodetype(%d) for arg_prepend"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:630
+msgid "can't do waitpid with flags"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:632
+msgid "Insecure PATH - %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:636 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:640
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:644 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:648
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:652
+msgid "wrong first argument"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:656
+msgid ""
+"can't handle UID while evaluating block given to Process::UID.switch method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:658
+msgid ""
+"can't handle GID while evaluating block given to Process::UID.switch method"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:660
+msgid "too many groups, %d max"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:662
+msgid "bad value for range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:760
+msgid "`initialize' called twice"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:664
+msgid "step can't be negative"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:668
+msgid "uninitialized Regexp"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:670 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:672
+msgid "%s: %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:734
+msgid "unknown kcode - should not happen"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:676 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:678
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:680
+msgid "index %d out of matches"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:684
+msgid "Insecure: can't modify regexp"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:686
+msgid "can't modify literal regexp"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:752
+msgid "wrong reg_kcode value (0x%x)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:690 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:870
+msgid "wrong argument type"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-4276-1k5w55w-0:804
+msgid "%s: invalid option -%c  (-h will show valid options)\n"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-4276-1k5w55w-0:806
+msgid "%s: invalid option -%%03o  (-h will show valid options)\n"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:692
+msgid "illegal switch in RUBYOPT: -%c"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:694
+msgid "no Ruby script found in input"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:696
+msgid "$0 not initialized"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:698
+msgid "no %s allowed while running setuid"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:700
+msgid "no %s allowed while running setgid"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:702
+msgid "no %s allowed in tainted mode"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:704 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:718
+msgid "invalid signal number (%d)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:706 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:712
+msgid "unsupported name `SIG%s'"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:708
+msgid "wrong number of arguments -- kill(sig, pid...)"
+msgstr "引数の数が不正です― kill(sig, pid...)"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:710 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:714
+msgid "bad signal"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:778
+msgid "trap_handler: Bad signal %d"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:780
+msgid "Bus Error"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:782
+msgid "Segmentation fault"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:716
+msgid "unsupported signal SIG%s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:720
+msgid "SIGVTALRM reserved for Thread; can't set handler"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:722
+msgid "wrong number of arguments -- trap(sig, cmd)/trap(sig){...}"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:724
+msgid "Insecure: tainted signal trap"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:726
+msgid "unnumbered(%d) mixed with numbered"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:728
+msgid "numbered(%d) after unnumbered(%d)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:730
+msgid "invalid index - %d$"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:732
+msgid "too few arguments"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:734
+msgid " too big"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:736
+msgid "malformed format string - %%*[0-9]"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:738
+msgid "width given twice"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:740
+msgid "width after precision"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:742
+msgid "flag after width"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:744
+msgid "flag after precision"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:746
+msgid "malformed format string - %%%c"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:748
+msgid "malformed format string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:750
+msgid "value given twice - %d$"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:752
+msgid "precision given twice"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:754
+msgid "illegal format character - %%"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:756
+msgid "string modified"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:758
+msgid "string frozen"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:760 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:778
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:782 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:784
+msgid "negative string size (or size too big)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:762
+msgid "NULL pointer given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:768
+msgid "can't modify string; temporarily locked"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:770
+msgid "Insecure: can't modify string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:772
+msgid "string contains null byte"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:774
+msgid "temporal locking already locked string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:776
+msgid "temporal unlocking already unlocked string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:780
+msgid "string sizes too big"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:786
+msgid "type mismatch: String given"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:790
+msgid "negative length %ld"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:792 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:800
+msgid "index %ld out of string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:794
+msgid "regexp not matched"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:796
+msgid "index %d out of regexp"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:798
+msgid "regexp group %d not matched"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:802
+msgid "string not matched"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:808
+msgid "invalid byte sequence"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:814
+msgid "block should not cheat"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:822
+msgid "salt too short(need >=2 bytes)"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:824
+msgid "interning empty string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:826
+msgid "symbol string may not contain `"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:828
+msgid "Insecure: can't intern tainted string"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:830
+msgid "zero width padding"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:832
+msgid "value of %s must be String"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:834
+msgid "uninitialized struct"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:836
+msgid "corrupted struct"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:98
+msgid "%s is not struct member"
+msgstr "%sは構造体のメンバではありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:838
+msgid "Insecure: can't modify Struct"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:98
+msgid "`%s' is not a struct member"
+msgstr "%sは構造体のメンバではありません"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:952
+msgid "identifier %s needs to be constant"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:840
+msgid "struct size differs"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:844
+msgid "struct size mismatch"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:960 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:962
+msgid "no member '%s' in struct"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:918 C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:920
+msgid "inconsistent struct"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:848
+msgid "Insecure: can't modify Time"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:850 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:852
+msgid "out of Time range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:854
+msgid "time must be positive"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:856 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:858
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:862
+msgid "%s must be positive"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:860
+msgid "%f out of Time range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:864
+msgid "argument out of range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:866
+msgid "time out of range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:868
+msgid "gmtime/localtime error"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:872
+msgid "localtime error"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:874 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:882
+msgid "gmtime error"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:876
+msgid "time - %f out of Time range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:878
+msgid "time + %f out of Time range"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:880
+msgid "time + time?"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:884
+msgid "year too big to marshal"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:886
+msgid "marshaled time format differ"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:962
+msgid "class path is not set properly"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:888
+msgid "can't retrieve anonymous class %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:890
+msgid "undefined class/module %.*s"
+msgstr "クラスまたはモジュール %.*sは未定義です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:892
+msgid "%s does not refer class/module"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1018
+msgid "%s is a read-only variable"
+msgstr "%sは読み込み専用変数です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:894
+msgid "Insecure: tainted variable trace"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1022
+msgid "undefined global variable %s"
+msgstr "%sは未定義のグローバル変数です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:896
+msgid "Insecure: can't change global variable value"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:898
+msgid "Insecure: can't alias global variable"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:900
+msgid "can't alias in tracer"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:902 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:904
+msgid "Insecure: can't modify instance variable"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1036
+msgid "instance variable %s not defined"
+msgstr "インスタンス変数 %s は未定義です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:128
+msgid "uninitialized constant %s::%s"
+msgstr "%s::%s は未初期化定数です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:128
+msgid "uninitialized constant %s"
+msgstr "%sは未初期化定数です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:906
+msgid "wrong autoload table: %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:908
+msgid "autoload must be constant name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:910 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:912
+msgid "empty file name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1050
+msgid "`%s' is not allowed as a constant name"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:914
+msgid "Insecure: can't remove constant"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1054
+msgid "cannot remove %s::%s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1056
+msgid "constant %s::%s not defined"
+msgstr "定数 %s::%s は未定義です"
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:916
+msgid "Insecure: can't set %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:918
+msgid "Insecure: can't modify class variable"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1062
+msgid "uninitialized class variable %s in %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1064 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1066
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1068 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1070
+msgid "wrong class variable name %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:920
+msgid "Insecure: can't remove class variable"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1074
+msgid "cannot remove %s for %s"
+msgstr ""
+
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1076
+msgid "class variable %s not defined for %s"
+msgstr "クラス変数%sは%sで定義されていません"

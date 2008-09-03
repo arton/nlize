@@ -1,0 +1,18 @@
+begin
+  require 'extrails/generate'
+rescue LoadError
+  require 'rubygems'
+  require 'extrails/generate'
+end
+module ExtRails
+  PROJECT = %r|.+?/([^/]+)/script|.match(File.dirname(File.expand_path(__FILE__)))[1]
+end
+if $0 == __FILE__
+  if ARGV.length == 0
+    $stderr.puts 'usage: ruby script/generate command [option]'
+    $stderr.puts '  command:  scaffold class function [more functions]'
+    exit(1)
+  end
+  g = ExtRails::Generator.new
+  g.__send__ ARGV[0], ARGV[1], ARGV[2..-1]
+end
