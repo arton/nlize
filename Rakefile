@@ -25,7 +25,12 @@ task :init_spec do
     s.add_dependency('gettext', '>= 1.92.0')
     s.email = 'artonx@gmail.com'
     s.platform = Gem::Platform::RUBY
-    s.extensions << 'ext/extconf.rb'
+    if /mswin32|mingw/ =~ RUBY_PLATFORM
+      s.platform = Gem::Platform::CURRENT
+    else
+      s.platform = Gem::Platform::RUBY
+      s.extensions << 'ext/extconf.rb'
+    end
     s.required_ruby_version = ">= 1.8.7"
     s.summary = 'TODO: '
     s.name = 'nlize'
@@ -33,11 +38,17 @@ task :init_spec do
     s.version = read_version
     s.requirements << 'none'
     s.require_path = 'lib'
-    s.files = FileList['lib/**/*.rb', 'samples/**/*.rb', 'ext/*.c', 'ext/*.h', 'ext/depend',
-                       'test/*.rb', '*.txt', 'ChangeLog']
+    files = FileList['lib/**/*.rb', 'po/**/*.po*', 'data/**/*.mo', 'ext/*.c', 'ext/*.h', 'ext/depend',
+                     'test/*.rb', '*.txt', 'ChangeLog']
+    s.has_rdoc = false
+    if /mswin32/ =~ RUBY_PLATFORM
+      FileUtils.cp 'ext/cnlize.so', 'lib/cnlize.so'
+      files << "lib/cnlize.so"
+      s.requirements << ' VC6 version of Ruby'
+    end
+    s.files = files
     s.test_file = 'test/test.rb'
-    s.has_rdoc = true
-    s.description = 'TODO:'
+    s.description = 'national languagized ruby error messages'
   end
 
   Rake::GemPackageTask.new(spec) do |pkg|

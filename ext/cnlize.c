@@ -51,7 +51,7 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
     printf("hello %d '%s'\n", reentry, format);
     fflush(stdout);
 #endif    
-    if (reentry == 1)
+    if (reentry < 10)
     {
         translated = safe_funcall((VALUE)args);
         alt = StringValueCStr(translated);
@@ -84,6 +84,18 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
 #endif
 }
 
+static VALUE name_err_mesg_new(VALUE obj, VALUE mesg, VALUE recv, VALUE method)
+{
+    VALUE args[] = {
+        mNLize,
+        nlize_translate,
+        1,
+        mesg
+    };
+    VALUE val = safe_funcall((VALUE)args);
+    return rb_funcall(obj, rb_intern("_new_message"), 3, val, recv, method);
+}
+
 static int (*altvsnprintf_p)(char*, size_t, const char*, va_list) = alt_vsnprintf;
 static unsigned char* palt;
 
@@ -97,9 +109,15 @@ void Init_cnlize()
     nlize_translate = rb_intern("translate");
     org = (unsigned char*)VSNPRINTF;
     palt = (unsigned char*)&altvsnprintf_p;
-    i = VirtualProtect(org, 8, PAGE_EXECUTE_READWRITE, &old);
+#if defined(_WIN32)
+    VirtualProtect(org, 8, PAGE_EXECUTE_READWRITE, &old);
+#endif    
     *org = '\xff';
     *(org + 1) = '\x25';
     memcpy(org + 2, &palt, 4);
-    i = VirtualProtect(org, 8, old, &old);
+#if defined(_WIN32)   
+    VirtualProtect(org, 8, old, &old);
+#endif    
+    rb_alias(rb_cNameErrorMesg, rb_intern("_new_message"), '!');
+    rb_define_singleton_method(rb_cNameErrorMesg, "!", name_err_mesg_new, 3);
 }
