@@ -60,11 +60,11 @@ msgstr ""
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:34 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:804
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:810 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:812
 msgid "wrong number of arguments (%d for 2)"
-msgstr "引数の数が不正です (2に対して%d)"
+msgstr "引数の個数が不正です (2に対して%d)"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:38
 msgid "wrong number of arguments (at least 1)"
-msgstr "引数の数が不正です (少なくとも1個は必須)"
+msgstr "引数の個数が不正です (少なくとも1個は必須)"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:40
 msgid "array modified during sort"
@@ -243,13 +243,13 @@ msgstr ""
 msgid "unknown type 0x%x"
 msgstr ""
 
-# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:140
+# C:/Users/arton/AppData/Local/Temp/extmsg20080904-4276-1k5w55w-0:152
 msgid "invalid value for %s: %s"
-msgstr ""
+msgstr "%sに対して%sは不正な値です"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:142
 msgid "invalid instance type"
-msgstr ""
+msgstr "不正なインスタンスタイプです"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:152
 msgid "rb_sys_fail(%s) - errno == 0"
@@ -506,11 +506,11 @@ msgstr "%s というロード可能なファイルはありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:222
 msgid "Insecure: can't change method visibility"
-msgstr ""
+msgstr "危険: 可視性の変更はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:224
 msgid "module_function must be called for modules"
-msgstr ""
+msgstr "module_functionメソッドはモジュールに対して呼び出してください"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:268
 msgid "undefined method `%s'; can't happen"
@@ -558,7 +558,7 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:248
 msgid "wrong argument type (expected Proc/Method)"
-msgstr ""
+msgstr "引数の型が正しくありません（ProcまたはMethodを指定）"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:294
 msgid "unsaved context"
@@ -640,16 +640,16 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:286 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:360
 msgid "not opened for writing"
-msgstr ""
+msgstr "書き込み用にオープンされていません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:292
 msgid "unknown command ?%c"
-msgstr ""
+msgstr "コマンド ?%c は知りません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:294 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:674
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:842
 msgid "wrong argument class"
-msgstr ""
+msgstr "引数のクラスが正しくありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:296 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:300
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:302 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:306
@@ -706,11 +706,11 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:320
 msgid "Insecure: can't modify hash"
-msgstr ""
+msgstr "危険: ハッシュは変更できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:322 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:326
 msgid "hash modified during iteration"
-msgstr ""
+msgstr "イテレーション中にハッシュが変更されました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:324
 msgid "rehash occurred during iteration"
@@ -718,11 +718,11 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:330
 msgid "odd number of arguments for Hash"
-msgstr ""
+msgstr "ハッシュの引数が奇数個です"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:332 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:340
 msgid "key not found"
-msgstr ""
+msgstr "キーが見つかりません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:334 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:336
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:338 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:344
@@ -937,15 +937,15 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:470
 msgid "can't copy %s"
-msgstr ""
+msgstr "%sをコピーできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:474 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:666
 msgid "step can't be 0"
-msgstr ""
+msgstr "増分は0にはできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:476
 msgid "no implicit conversion from nil to integer"
-msgstr ""
+msgstr "nilから整数への暗黙の変換はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:478
 msgid "float %s out of range of integer"
@@ -969,7 +969,7 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:488
 msgid "no implicit conversion from nil"
-msgstr ""
+msgstr "nilからの暗黙の変換はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:490
 msgid "float %s out of range of long long"
@@ -977,15 +977,15 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:492
 msgid "no implicit conversion from string"
-msgstr ""
+msgstr "文字列からの暗黙の変換はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:494
 msgid "no implicit conversion from boolean"
-msgstr ""
+msgstr "ブーリアンからの暗黙の変換はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:496
 msgid "%ld out of char range"
-msgstr ""
+msgstr "%ldは文字の範囲を越えています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:500
 msgid "[bug] frozen object (%s) allocated"
@@ -993,11 +993,11 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:502
 msgid "can't clone %s"
-msgstr ""
+msgstr "%sはクローンを作れません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:504
 msgid "can't dup %s"
-msgstr ""
+msgstr "%sはdupできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:506
 msgid "initialize_copy should take same class object"
@@ -1005,15 +1005,15 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:508 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:510
 msgid "class or module required"
-msgstr ""
+msgstr "クラスまたはモジュールが必要です"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:512
 msgid "Insecure: can't freeze object"
-msgstr ""
+msgstr "危険: 凍結できないオブジェクト"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:514
 msgid "no receiver given"
-msgstr ""
+msgstr "レシーバが与えられていません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:516 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:518
 msgid "compared with non class/module"
@@ -1033,34 +1033,34 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:528
 msgid "uninitialized class"
-msgstr ""
+msgstr "未初期化クラス"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:530
 msgid "%ld is not a symbol"
-msgstr ""
+msgstr "%ldはシンボルではありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:532
 msgid "%s is not a symbol"
-msgstr ""
+msgstr "%sはシンボルではありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:608 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:610
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:612
 msgid "wrong constant name %s"
-msgstr ""
+msgstr "%sは正しい定数名ではありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:614 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:616
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:618 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:1034
 msgid "`%s' is not allowed as an instance variable name"
-msgstr ""
+msgstr "`%s'はインスタンス変数名には利用できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:620 C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:622
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:624
 msgid "`%s' is not allowed as a class variable name"
-msgstr ""
+msgstr "`%s'はクラス変数名には利用できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:534
 msgid "Float %.*s%s out of range"
-msgstr ""
+msgstr "浮動小数点数 %.*s%s は表現できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:536
 msgid "string for Float contains null byte"
@@ -1068,39 +1068,39 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:538
 msgid "can't convert nil into Float"
-msgstr ""
+msgstr "nilは浮動小数点に変換できません"
 
-# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:540
+# C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:704 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:718
 msgid "invalid value for Float()"
-msgstr ""
+msgstr "Float関数への引数が正しくありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:542
 msgid "no implicit conversion to float from string"
-msgstr ""
+msgstr "浮動小数点から文字列への暗黙の変換はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:544
 msgid "no implicit conversion to float from nil"
-msgstr ""
+msgstr "浮動小数点からnilへの暗黙の変換はできません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:546
 msgid "can't convert %s to `integer'"
-msgstr ""
+msgstr "%s は`integer'に変換できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:548
 msgid "format string modified"
-msgstr ""
+msgstr "フォーマット文字列が変更されました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:550 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:560
 msgid "'%c' allowed only after types %s"
-msgstr ""
+msgstr "'%c'は%sの後でのみ認められています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:552 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:566
 msgid "X outside of string"
-msgstr ""
+msgstr "X が文字列の外部にあります"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:554 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:562
 msgid "%% is not supported"
-msgstr ""
+msgstr "%% はサポートしていません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:556 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:578
 msgid "pack(U): value out of range"
@@ -1108,15 +1108,15 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:558
 msgid "can't compress negative numbers"
-msgstr ""
+msgstr "負値が圧縮できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:564
 msgid "@ outside of string"
-msgstr ""
+msgstr "@ が文字列の外部にあります"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:568
 msgid "x outside of string"
-msgstr ""
+msgstr "x は文字列の外部にあります"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:570 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:574
 msgid "no associated pointer"
@@ -1129,17 +1129,17 @@ msgstr ""
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:580 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:582
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:584
 msgid "malformed UTF-8 character"
-msgstr ""
+msgstr "UTF-8文字の構成が正しくありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:586
 msgid "redundant UTF-8 sequence"
-msgstr ""
+msgstr "リダンダントUTF-8シーケンスです"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:588 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:590
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:592 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:594
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:596
 msgid "both block arg and actual block given"
-msgstr ""
+msgstr "ブロック引数と実際のブロックが与えられました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:598
 msgid "%s"
@@ -1147,19 +1147,19 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:692
 msgid "unknown regexp option%s - %s"
-msgstr ""
+msgstr "正規表現のオプション%s - %sは未定義です"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:600
 msgid "symbol cannot contain '"
-msgstr ""
+msgstr "シンボルに含めることはできません'"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:602
 msgid "unterminated string meets end of file"
-msgstr ""
+msgstr "文字列の途中でファイルの終わりに到達しました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:604
 msgid "unterminated here document identifier"
-msgstr ""
+msgstr "ヒアドキュメントの終端子が見つかりません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-9152-6lohh9-0:700
 msgid " anywhere before EOF"
@@ -1167,43 +1167,43 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:608
 msgid "embedded document meets end of file"
-msgstr ""
+msgstr "埋め込みドキュメントがファイルの終わりに達しました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:610
 msgid "incomplete character syntax"
-msgstr ""
+msgstr "文字則を満たしていません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:612
 msgid "unterminated quoted string meets end of file"
-msgstr ""
+msgstr "文字列の途中でファイルの終わりに達しました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:614
 msgid "`@%c' is not allowed as an instance variable name"
-msgstr ""
+msgstr "`@@%c'はインスタンス変数名には利用できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:616
 msgid "`@@%c' is not allowed as a class variable name"
-msgstr ""
+msgstr "クラス変数名に`@@%c'は利用できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:618
-msgid "Invalid char `%%03o' in expression"
-msgstr ""
+msgid "Invalid char `%03o' in expression"
+msgstr "式に文字 `%03o' は利用できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:620 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:622
 msgid "identifier %s is not valid"
-msgstr ""
+msgstr "識別子 %s は認められていません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:624
 msgid "Can't set variable $%d"
-msgstr ""
+msgstr "変数 $%d には設定できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:626
 msgid "Can't set variable $%c"
-msgstr ""
+msgstr "変数 $%c には設定できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:628
 msgid "block argument should not be given"
-msgstr ""
+msgstr "ブロック引数は指定できません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-5656-1t6ewe7-0:688
 msgid "unknown nodetype(%d) for arg_prepend"
@@ -1221,7 +1221,7 @@ msgstr ""
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:644 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:648
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:652
 msgid "wrong first argument"
-msgstr ""
+msgstr "最初の引数が正しくありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:656
 msgid ""
@@ -1280,27 +1280,30 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:690 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:870
 msgid "wrong argument type"
-msgstr ""
+msgstr "引数の型が正しくありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-4276-1k5w55w-0:804
 msgid "%s: invalid option -%c  (-h will show valid options)\n"
 msgstr ""
+"%s: オプション -%c は利用できません。-h で正しいオプションを確認してください"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080904-4276-1k5w55w-0:806
-msgid "%s: invalid option -%%03o  (-h will show valid options)\n"
+msgid "%s: invalid option -%03o  (-h will show valid options)\n"
 msgstr ""
+"%s: オプション -%03o は利用できません。-h で正しいオプションを確認してくださ"
+"い"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:692
 msgid "illegal switch in RUBYOPT: -%c"
-msgstr ""
+msgstr "RUBYOPTに不正なスィッチ -%c があります"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:694
 msgid "no Ruby script found in input"
-msgstr ""
+msgstr "入力にRubyスクリプトが見つかりません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:696
 msgid "$0 not initialized"
-msgstr ""
+msgstr "$0 が初期化されていません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:698
 msgid "no %s allowed while running setuid"
@@ -1316,7 +1319,7 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:704 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:718
 msgid "invalid signal number (%d)"
-msgstr ""
+msgstr "シグナル (%d) は不正値です"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:706 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:712
 msgid "unsupported name `SIG%s'"
@@ -1324,7 +1327,7 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:708
 msgid "wrong number of arguments -- kill(sig, pid...)"
-msgstr "引数の数が不正です― kill(sig, pid...)"
+msgstr "引数の個数が不正です― kill(sig, pid...)"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:710 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:714
 msgid "bad signal"
@@ -1368,72 +1371,72 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:730
 msgid "invalid index - %d$"
-msgstr ""
+msgstr "%d$ は正しいインデックスではありません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:732
 msgid "too few arguments"
-msgstr ""
+msgstr "引数が少な過ぎます"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:734
 msgid " too big"
-msgstr ""
+msgstr "大き過ぎます"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:736
 msgid "malformed format string - %%*[0-9]"
-msgstr ""
+msgstr "フォーマット文字列が正しくありません - %%*[0-9]"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:738
 msgid "width given twice"
-msgstr ""
+msgstr "幅指定が2回与えられました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:740
 msgid "width after precision"
-msgstr ""
+msgstr "精度指定の後に幅指定が与えられました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:742
 msgid "flag after width"
-msgstr ""
+msgstr "幅指定の後にフラグが与えられました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:744
 msgid "flag after precision"
-msgstr ""
+msgstr "精度指定の後にフフグが与えられました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:746
 msgid "malformed format string - %%%c"
-msgstr ""
+msgstr "正しくないフォーマット文字列です - %%%c"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:748
 msgid "malformed format string"
-msgstr ""
+msgstr "正しくないフォーマット文字列です"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:750
 msgid "value given twice - %d$"
-msgstr ""
+msgstr "値が2回与えられました - %d$"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:752
 msgid "precision given twice"
-msgstr ""
+msgstr "精度指定が重複しています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:754
 msgid "illegal format character - %%"
-msgstr ""
+msgstr "正しくないフォーマット文字です - %%"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:756
 msgid "string modified"
-msgstr ""
+msgstr "文字列が変更されました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:758
 msgid "string frozen"
-msgstr ""
+msgstr "文字列が凍結されています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:760 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:778
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:782 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:784
 msgid "negative string size (or size too big)"
-msgstr ""
+msgstr "負の文字列サイズまたは大き過ぎます"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:762
 msgid "NULL pointer given"
-msgstr ""
+msgstr "NULLポインタが与えられまし"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:768
 msgid "can't modify string; temporarily locked"
@@ -1445,7 +1448,7 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:772
 msgid "string contains null byte"
-msgstr ""
+msgstr "null文字を含む文字列"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:774
 msgid "temporal locking already locked string"
@@ -1457,11 +1460,11 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:780
 msgid "string sizes too big"
-msgstr ""
+msgstr "文字列が長過ぎます"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:786
 msgid "type mismatch: String given"
-msgstr ""
+msgstr "型が正しくありません。文字列が与えられました"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:790
 msgid "negative length %ld"
@@ -1469,27 +1472,27 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:792 C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:800
 msgid "index %ld out of string"
-msgstr ""
+msgstr "インデックス %ld は文字列を越えています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:794
 msgid "regexp not matched"
-msgstr ""
+msgstr "正規表現がマッチしません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:796
 msgid "index %d out of regexp"
-msgstr ""
+msgstr "インデックス %d は正規表現を超えています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:798
 msgid "regexp group %d not matched"
-msgstr ""
+msgstr "正規表現グループ %d がマッチしません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:802
 msgid "string not matched"
-msgstr ""
+msgstr "文字列がマッチしません"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:808
 msgid "invalid byte sequence"
-msgstr ""
+msgstr "不正なバイト列"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:814
 msgid "block should not cheat"
@@ -1582,7 +1585,7 @@ msgstr ""
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:864
 msgid "argument out of range"
-msgstr ""
+msgstr "引数が範囲を越えています"
 
 # C:/Users/arton/AppData/Local/Temp/extmsg20080903-7108-u3ol8c-0:866
 msgid "time out of range"
