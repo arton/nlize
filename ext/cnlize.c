@@ -17,7 +17,6 @@
 
 #if defined(_MSC_VER) && _MSC_VER < 1300
   #define VSNPRINTF _vsnprintf
-  extern int __cdecl _output(FILE*, const char*, va_list);
 #else
   #define VSNPRINTF vsnprintf
 #endif
@@ -65,8 +64,10 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
     printf("%s\n", alt);
     fflush(stdout);
 #endif        
-#if defined(HAVE_VSNPRINTF_L)
+#if defined(_MSC_VER) && _MSC_VER >= 1300
     return _vsnprintf_l(buffer, count, alt, NULL, argptr);
+#elif defined(HAVE_VSNPRINTF_L)
+    return vsnprintf_l(buffer, count, NULL, alt, argptr);
 #else
     {
     int ret;
