@@ -6,11 +6,14 @@
 #include "ruby.h"
 #include "extconf.h"
 #include <stdio.h>
+#include <stdarg.h>
 #if defined(_WIN32)
   #include <windows.h>
+#elif defined(HAVE_SYS_MMAN_H)
+  #include <sys/mman.h>
 #endif
 
-#if _MSC_VER < 1300
+#if defined(_MSC_VER) && _MSC_VER < 1300
   #define VSNPRINTF _vsnprintf
   extern int __cdecl _output(FILE*, const char*, va_list);
 #else
@@ -73,13 +76,13 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
     str._flag = _IOWRT | _IOSTRG;
     str._base = str._ptr = buffer;
     str._cnt = count;
-      ret = vfprintf(&str, alt, argptr); 
+    ret = vfprintf(&str, alt, argptr); 
     putc('\0', &str);
     */
     ret = vsprintf(buffer, alt, argptr);
     return ret;
     }
-#elif defined(_MSC_VER)
+#elif defined(_MSC_VER) || defined(HAVE_VSNPRINTF_L)
     return _vsnprintf_l(buffer, count, alt, NULL, argptr);
 #endif
 }
@@ -101,7 +104,9 @@ static unsigned char* palt;
 
 void Init_cnlize()
 {
+#if defined(_WIN32)
     DWORD old;
+#endif
     unsigned char* org;
     int i;
     mNLize = rb_const_get(rb_cObject, rb_intern("NLize"));
@@ -112,7 +117,7 @@ void Init_cnlize()
 #if defined(_WIN32)
     VirtualProtect(org, 8, PAGE_EXECUTE_READWRITE, &old);
 #else
-    mprotect(org, 8, PROTO_READ | PROTO_WRITE);
+    mprotect(org, 8, PROT_READ | PROT_WRITE);
 #endif    
     *org = '\xff';
     *(org + 1) = '\x25';
@@ -120,7 +125,7 @@ void Init_cnlize()
 #if defined(_WIN32)   
     VirtualProtect(org, 8, old, &old);
 #else
-    mprotect(org, 8, PROTO_READ | PROTO_EXEC);    
+    mprotect(org, 8, PROT_READ | PROT_EXEC);    
 #endif    
     rb_alias(rb_singleton_class(rb_cNameErrorMesg), rb_intern("_new_message"), '!');
     rb_define_singleton_method(rb_cNameErrorMesg, "!", name_err_mesg_new, 3);
