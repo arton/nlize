@@ -2,10 +2,19 @@
 # 
 # copyrigth (c) 2008 arton
 #
-require 'gettext'
+begin
+  require 'gettext'
+rescue LoadError
+  require 'rubygems'
+  require 'gettext'
+end  
 
 module NLize
-  GetText::bindtextdomain('rubymsg')
+  opt = {}
+  if  __FILE__ =~ %r|\A(.+ruby/gems/1\.8/gems/nlize.+)/lib/nlize.rb|
+    opt[:path] = "#{$1}/data/locale"
+  end
+  GetText::bindtextdomain('rubymsg', opt)
   def self.translate(msg)
     r = GetText::_(msg)
     if r == msg

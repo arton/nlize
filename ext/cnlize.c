@@ -111,13 +111,17 @@ void Init_cnlize()
     palt = (unsigned char*)&altvsnprintf_p;
 #if defined(_WIN32)
     VirtualProtect(org, 8, PAGE_EXECUTE_READWRITE, &old);
+#else
+    mprotect(org, 8, PROTO_READ | PROTO_WRITE);
 #endif    
     *org = '\xff';
     *(org + 1) = '\x25';
     memcpy(org + 2, &palt, 4);
 #if defined(_WIN32)   
     VirtualProtect(org, 8, old, &old);
+#else
+    mprotect(org, 8, PROTO_READ | PROTO_EXEC);    
 #endif    
-    rb_alias(rb_cNameErrorMesg, rb_intern("_new_message"), '!');
+    rb_alias(rb_singleton_class(rb_cNameErrorMesg), rb_intern("_new_message"), '!');
     rb_define_singleton_method(rb_cNameErrorMesg, "!", name_err_mesg_new, 3);
 }
