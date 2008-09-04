@@ -7,10 +7,12 @@
 #include "extconf.h"
 #include <stdio.h>
 #include <stdarg.h>
+#include <errno.h>
 #if defined(_WIN32)
   #include <windows.h>
 #elif defined(HAVE_SYS_MMAN_H)
   #include <sys/mman.h>
+  #define PAGE_MASK 0xfffff000
 #endif
 
 #if defined(_MSC_VER) && _MSC_VER < 1300
@@ -63,7 +65,9 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
     printf("%s\n", alt);
     fflush(stdout);
 #endif        
-#if _MSC_VER < 1300
+#if defined(HAVE_VSNPRINTF_L)
+    return _vsnprintf_l(buffer, count, alt, NULL, argptr);
+#else
     {
     int ret;
     /*
@@ -77,8 +81,6 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
     ret = vsprintf(buffer, alt, argptr);
     return ret;
     }
-#elif defined(_MSC_VER) || defined(HAVE_VSNPRINTF_L)
-    return _vsnprintf_l(buffer, count, alt, NULL, argptr);
 #endif
 }
 
@@ -97,7 +99,7 @@ void Init_cnlize()
     DWORD old;
 #endif
     unsigned char* org;
-    int i;
+    int ret;
     mNLize = rb_const_get(rb_cObject, rb_intern("NLize"));
     rb_define_const(mNLize, "VERSION", rb_str_new2(NLIZE_VERSION));
     nlize_translate = rb_intern("translate");
@@ -106,15 +108,23 @@ void Init_cnlize()
 #if defined(_WIN32)
     VirtualProtect(org, 8, PAGE_EXECUTE_READWRITE, &old);
 #else
-    mprotect(org, 8, PROT_READ | PROT_WRITE);
+    ret = mprotect((void*)((int)org & PAGE_MASK), 8, PROT_READ | PROT_WRITE | PROT_EXEC);
+    if (ret) {
+        /* ignore nlize */
+        return;
+    }
 #endif    
+    /* i386 only */
     *org = '\xff';
     *(org + 1) = '\x25';
     memcpy(org + 2, &palt, 4);
 #if defined(_WIN32)   
     VirtualProtect(org, 8, old, &old);
 #else
-    mprotect(org, 8, PROT_READ | PROT_EXEC);    
+    ret = mprotect((void*)((int)org & PAGE_MASK), 8, PROT_READ | PROT_EXEC);    
+    if (ret) {
+        rb_fatal("can't reset memory config errno(%d)", errno);        
+    }
 #endif    
     new_message = rb_intern("_new_message");
     rb_alias(rb_singleton_class(rb_cNameErrorMesg), new_message, '!');
