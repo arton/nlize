@@ -24,6 +24,7 @@
 
 static VALUE mNLize;
 static ID nlize_translate;
+static ID new_message;
 /**
  * safe call object's method with args
  * args[0] --- self
@@ -43,12 +44,6 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
     static int reentry = 0;
     VALUE translated;
     const char* alt;
-    VALUE args[] = {
-        mNLize,
-        nlize_translate,
-        1,
-        rb_str_new2(format)
-    };
     reentry++;
 #if defined(DEBUG)
     printf("hello %d '%s'\n", reentry, format);
@@ -56,7 +51,7 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
 #endif    
     if (reentry < 10)
     {
-        translated = safe_funcall((VALUE)args);
+        translated = rb_funcall(mNLize, nlize_translate, 1, rb_str_new2(format));
         alt = StringValueCStr(translated);
     }
     else
@@ -89,14 +84,8 @@ static int alt_vsnprintf(char* buffer, size_t count, const char* format, va_list
 
 static VALUE name_err_mesg_new(VALUE obj, VALUE mesg, VALUE recv, VALUE method)
 {
-    VALUE args[] = {
-        mNLize,
-        nlize_translate,
-        1,
-        mesg
-    };
-    VALUE val = safe_funcall((VALUE)args);
-    return rb_funcall(obj, rb_intern("_new_message"), 3, val, recv, method);
+    VALUE val = rb_funcall(mNLize, nlize_translate, 1, mesg);
+    return rb_funcall(obj, new_message, 3, val, recv, method);
 }
 
 static int (*altvsnprintf_p)(char*, size_t, const char*, va_list) = alt_vsnprintf;
@@ -127,6 +116,7 @@ void Init_cnlize()
 #else
     mprotect(org, 8, PROT_READ | PROT_EXEC);    
 #endif    
-    rb_alias(rb_singleton_class(rb_cNameErrorMesg), rb_intern("_new_message"), '!');
+    new_message = rb_intern("_new_message");
+    rb_alias(rb_singleton_class(rb_cNameErrorMesg), new_message, '!');
     rb_define_singleton_method(rb_cNameErrorMesg, "!", name_err_mesg_new, 3);
 }
