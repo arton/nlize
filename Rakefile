@@ -34,7 +34,7 @@ task :init_spec do
     s.required_ruby_version = ">= 1.8.7"
     s.summary = 'TODO: '
     s.name = 'nlize'
-    s.homepage = 'http://nlize.rubyforge.org/'
+    s.homepage = %q{http://github.com/arton/nlize/}
     s.version = read_version
     s.requirements << 'none'
     s.require_path = 'lib'
@@ -48,7 +48,7 @@ task :init_spec do
     end
     s.files = files
     s.test_file = 'test/test.rb'
-    s.description = 'national languagized ruby error messages'
+    s.description = 'native languagized ruby error messages'
   end
 
   Rake::GemPackageTask.new(spec) do |pkg|
