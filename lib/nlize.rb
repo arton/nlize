@@ -20,6 +20,13 @@ module NLize
     if r == msg
       if /.+Error: (.+)\Z/ =~ msg
         r = GetText::_($1)
+      elsif m = /\A(.+unexpected\s)(.+)(,\s+expecting\s)(.+)\Z/.match(msg)
+        org = [GetText::_("#{m[1]}%s"), GetText::_("#{m[3]}%s")]
+        r = "#{sprintf(org[0], m[2])}#{sprintf(org[1], m[4])}"
+      elsif /\A(syntax error, unexpected )(.+)\Z/ =~ msg
+        arg = $2
+        org = GetText::_("#{$1}%s")
+        r = sprintf(org, arg)
       end
     end
     r

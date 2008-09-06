@@ -18,7 +18,9 @@ module NLize
             /rb_.+_error\(.*(\".+\")/,
             /rb_raise\(.+(\".+\").*\)/,
             /rb_bug\(\s*(\".+\").*\)/,            
-            /format\s*\=\s*(\".+\")\s*;/
+            /format\s*\=\s*(\".+\")\s*;/,
+            /yyerror\s*\(.*(\".+\").*\)\s*;/,
+            /const yy.*expect.*\[\]\s*\=\s*(\".+\")\s*;/            
            ]
   def self.extract_from_c(dir, tmpf)
     Dir.foreach(dir) do |file|
@@ -29,7 +31,7 @@ module NLize
           ERRMSG.each do |re|
             if re =~ line
               tmpf.puts "# #{file} line:#{i}"
-              tmpf.puts "_(#{$1})"
+              tmpf.puts "s = _(#{$1.gsub("\\", "\\\\\\")})"
               break
             end
           end
